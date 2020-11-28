@@ -5,6 +5,8 @@ account: yw3436
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 3316046
-bundleId: 3916537
+bundleId: 3916994
 url: https://yw3436.shinyapps.io/dashboard/
-when: 1606584857.20994
+when: 1606597305.59706
+asMultiple: FALSE
+asStatic: FALSE
