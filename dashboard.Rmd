@@ -108,23 +108,23 @@ other = rate_trend %>% distinct(other) %>% pull()
 
 selectInput(
   "boroughInput",
-  label = h1("Borough Choice"),
+  label = h4("Borough"),
   choices = boro,
   selected = "Bronx")
 
 sliderInput(
   "yearInput",
-  h1("Year"),
+  h4("Year"),
   min = 2011, max = 2019, step = 1, 
   value = c(min, max))
   
 checkboxGroupInput("inforInput",
-                   h1("HIV Information"),
+                   h4("HIV Information"),
                    choices = infor,
                    selected = c("HIV Diagnosis Rate"))
 
 radioButtons("otherInput",
-            h1("Other Factors"),
+            h4("Other Factors"),
             choices = other,
             selected = c("Crime Rate"))
 
